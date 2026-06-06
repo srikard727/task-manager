@@ -14,7 +14,7 @@ app.use((req, res, next) => {
 
 
 // routes
-app.use('/api/workouts', workoutRoutes)
+app.use('/api/workouts/', workoutRoutes)
 
 // listener for requests
 app.listen(process.env.PORT, () => {
